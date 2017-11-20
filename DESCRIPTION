@@ -1,0 +1,14 @@
+Package: SolMod
+Type: Package
+Title: Solar irradiance modeling
+Version: 0.1.0
+Imports:
+    insol
+Author: Dazhi Yang
+Maintainer: Dazhi Yang <yangdazhi.nus@gmail.com>
+Description: The current version of the 'SolMod' package performs horizontal to
+    tilt irradiance conversion. 26 transposition models are included. It provides an
+    accuracy benchmark for future implementation.
+License: GPL (>= 2)
+LazyData: TRUE
+RoxygenNote: 5.0.1
