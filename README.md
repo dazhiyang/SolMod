@@ -35,6 +35,7 @@ install_github("dazhiyang/SolMod")
 This code segment gives an example on how to run transposition modeling (horizontal to tilt) using a variety of models. 
 
 ```
+library("SolMod")
 data("NREL") #load data
 slope = c(40, 90, 90, 90, 90) # initialize tilt angles
 azimuth.PV = c(180, 0,  90, 180, 270) # initialize azimuth angles
